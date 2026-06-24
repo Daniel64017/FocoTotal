@@ -1,0 +1,15 @@
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+*.iml
+.cxx
+local.properties
+.navigation/
+captures/
+.externalNativeBuild
+.cxx
+/build-profile-*.json
+/build-profile-*.xml

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Timestamp do evento -->
+    <TextView
+        android:id="@+id/txt_log_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_card_rounded"
+        android:backgroundTint="@color/primary_light"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:textColor="@color/primary_dark"
+        android:textSize="10sp"
+        tools:text="20:30:15.123" />
+
+    <!-- Nome da classe (Activity/Fragment) -->
+    <TextView
+        android:id="@+id/txt_log_componente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:text="FragmentDashboard" />
+
+    <!-- Nome do callback do ciclo de vida -->
+    <TextView
+        android:id="@+id/txt_log_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_card_rounded"
+        android:backgroundTint="@color/accent_light"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="3dp"
+        android:textColor="@color/accent"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:text="onResume()" />
+
+</LinearLayout>

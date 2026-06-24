@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocoTotal</string>
+    
+    <!-- Navegação -->
+    <string name="titulo_estudos">Minhas Tarefas</string>
+    <string name="titulo_dashboard">Dashboard</string>
+    
+    <!-- Fragment Estudos -->
+    <string name="subtitulo_estudos">Gerencie suas sessões e atividades acadêmicas</string>
+    <string name="sem_tarefas">Nenhuma tarefa cadastrada. Clique no botão + para adicionar!</string>
+    <string name="txt_horas">horas</string>
+    
+    <!-- Fragment Dashboard -->
+    <string name="titulo_metricas">Suas Métricas</string>
+    <string name="total_horas">Horas Estudadas</string>
+    <string name="concluidas">Concluídas</string>
+    <string name="pendentes">Pendentes</string>
+    <string name="titulo_ciclo_vida">Monitor do Ciclo de Vida</string>
+    <string name="btn_limpar_logs">Limpar Logs</string>
+    
+    <!-- Diálogo Nova Tarefa -->
+    <string name="titulo_nova_tarefa">Nova Atividade de Estudo</string>
+    <string name="hint_materia">Selecione a Disciplina</string>
+    <string name="hint_descricao">O que você vai estudar?</string>
+    <string name="hint_horas">Horas estimadas (ex: 2)</string>
+    <string name="btn_salvar">Salvar Tarefa</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="erro_campos_obrigatorios">Por favor, preencha todos os campos corretamente!</string>
+</resources>
